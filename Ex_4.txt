@@ -1,0 +1,2 @@
+Valor da variável i: 0, 1, 2, 3, 4, 5
+Console: 4 - 7 - 11 - 25 - 33 - 47 -

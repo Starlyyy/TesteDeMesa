@@ -1,0 +1,2 @@
+Valor da variável i: 0, 1, 2
+Console: o valor buscado está entre as maravilhas.

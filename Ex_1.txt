@@ -1,0 +1,2 @@
+Mémoria da variável i: 0, 1, 2
+Console: 1-22-333-

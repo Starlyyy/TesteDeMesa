@@ -1,0 +1,11 @@
+O que aparece no console: Teste 0: int(4)
+
+                          Teste 1: bool(true)
+
+                          Teste 2: bool(false)
+                          
+                          Teste 3: int(3)
+                          
+                          Teste 4: bool(true)
+                          
+                          Teste 5: bool(true)

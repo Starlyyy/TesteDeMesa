@@ -3,13 +3,13 @@
 function removerCaractere(&$palavra, &$caractere) {
     $count = 0;
 
-    $length = strlen($palavra); //pega o tamanho da string
-    for ($i = 0; $i < $length; $i++) {
+    $tamanho = strlen($palavra); //pega o tamanho da string
+    for ($i = 0; $i < $tamanho; $i++) {
         if ($palavra[$i] === $caractere) {
             $count++;
             
             $palavra = substr_replace($palavra,'', $i, 1);
-            $length--;  
+            $tamanho--;  
             $i--;  
         }
     }
@@ -23,5 +23,5 @@ $caractere = $caractereParaRemover;
 
 removerCaractere($texto, $caractereParaRemover);
 
-echo "Palavra modificada: $texto\n";
+echo "Aqui esrá a palavra modificada: $texto\n";
 echo "Número de vezes que '$caractere' foi removido: $caractereParaRemover\n";
